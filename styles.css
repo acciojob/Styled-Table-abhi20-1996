@@ -1,1 +1,12 @@
 /* your code */
+th{
+	background-color:aquamarine
+}
+tr:nth-child(even){
+	background-color:lightcyan;
+}
+table, th, td{
+    border-collapse: collapse;
+    padding: 10px 5px;
+    text-align: center;
+}
